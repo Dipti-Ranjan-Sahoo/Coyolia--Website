@@ -1,0 +1,86 @@
+.container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F5F5F7;
+}
+
+.sectionLabel {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: #000;
+    text-shadow: 2px 2px #ddd;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px black;
+    padding: 25px;
+    min-width: 300px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 0px #7655B7;
+}
+
+.cardHighlight {
+    background: #ffbb00;
+    border-radius: 20px;
+    padding: 25px;
+    min-width: 300px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cardHighlight:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 0px #ff9900;
+}
+
+.cardBlue {
+    background: #cce0ff;
+    border-radius: 20px;
+    padding: 25px;
+    min-width: 300px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #21204C;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cardBlue:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 0px #4285F4;
+}
+
+.icon {
+    width: 60px;
+    margin-bottom: 10px;
+}

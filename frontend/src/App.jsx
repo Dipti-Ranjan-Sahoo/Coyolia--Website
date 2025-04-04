@@ -10,8 +10,9 @@ import Insights from "./pages/Insights";
 import Industries from "./pages/Industries";
 import Careers from "./pages/Careers";
 import Services from "./pages/Services";
-import BookSession from "./components/BookSession"; // Import BookSession Component
+import CareerCounselling from "./pages/CareerCounselling"; // Import Career Counselling page
 import styles from "./styles/App.module.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
@@ -28,10 +29,7 @@ function App() {
             <Route path="/industries" element={<Industries />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/services" element={<Services />} />
-          </Routes>
-          {/* Add the BookSession form on the homepage */}
-          <Routes>
-            <Route path="/" element={<BookSession />} />
+            <Route path="/services/career-counselling" element={<CareerCounselling />} /> {/* New Route */}
           </Routes>
         </div>
         <Footer />

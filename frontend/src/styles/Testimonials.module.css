@@ -1,0 +1,43 @@
+.testimonialsContainer {
+  padding: 50px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #21204C;
+}
+
+.subText {
+  font-size: 1.2rem;
+  color: #17617d;
+  margin-bottom: 20px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonialCard {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 1rem;
+}
+
+.testimonialText {
+  font-style: italic;
+  color: #333;
+}
+
+.testimonialAuthor {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #000;
+}

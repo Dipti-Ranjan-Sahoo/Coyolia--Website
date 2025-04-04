@@ -1,10 +1,14 @@
 .homeContainer {
-  background: #21204C;
-  color: white;
+  background: #f4f4f8;
+  color: rgb(20, 15, 15);
   padding: 60px;
   border-radius: 12px;
   text-align: center;
 }
+.bookSession {
+  margin-top: 40px; /* Increase this value to move it further down */
+}
+
 
 /* Hero Section */
 .heroSection {
@@ -37,7 +41,7 @@
 .title {
   font-size: 3rem;
   font-weight: bold;
-  color: #FFD700;
+  color: #3e0c77;
   margin: 15px 0;
 }
 

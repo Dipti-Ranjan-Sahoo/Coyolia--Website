@@ -1,11 +1,15 @@
 import React from "react";
 import styles from "../styles/Page.module.css";
+import BookSession from "../components/BookSession";
+import Testimonials from "../components/Testimonials";
+import NumbersSection from "../components/NumbersSection";
+import YouAchieve from "../components/YouAchieve"; // Import the section
 
 const Home = () => {
   return (
     <div className={styles.homeContainer}>
+      {/* Hero Section */}
       <div className={styles.heroSection}>
-        {/* Left Side: Text Content */}
         <div className={styles.textContent}>
           <span className={styles.badge}>Education Features</span>
           <h1 className={styles.title}>
@@ -17,7 +21,7 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Right Side: Video */}
+        {/* Video Section */}
         <div className={styles.videoContainer}>
           <video autoPlay loop muted className={styles.video}>
             <source src="/vid.mp4" type="video/mp4" />
@@ -25,6 +29,20 @@ const Home = () => {
           </video>
         </div>
       </div>
+
+      {/* Numbers That Matter Section */}
+      <NumbersSection />
+
+      {/* Move BookSession Down */}
+      <div className={styles.bookSessionWrapper}>
+        <BookSession />
+      </div>
+
+      {/* You Achieve Section - Move before Testimonials */}
+      <YouAchieve />
+
+      {/* Testimonials Section */}
+      <Testimonials />
     </div>
   );
 };

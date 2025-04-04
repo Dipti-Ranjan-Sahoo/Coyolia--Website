@@ -1,6 +1,6 @@
 .footer {
-    background: #21204C;
-    color: white;
+    background: #efeff2;
+    color: rgb(12, 10, 10);
     padding: 50px 20px;
     text-align: center;
     font-family: "Arial", sans-serif;
@@ -26,7 +26,7 @@
   h3 {
     font-size: 1.4rem;
     margin-bottom: 15px;
-    color: #FFD700;
+    color: #1d66a1;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -41,14 +41,14 @@
   }
   
   a {
-    color: white;
+    color: rgb(98, 189, 174);
     text-decoration: none;
     font-size: 0.95rem;
     transition: color 0.3s ease-in-out;
   }
   
   a:hover {
-    color: #FFD700;
+    color: #4510d6;
     text-decoration: underline;
   }
   
