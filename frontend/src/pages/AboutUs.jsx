@@ -7,21 +7,40 @@ const AboutUs = () => {
       <h1 className={styles.pageTitle}>About Us</h1>
       
 
-      {/* Our Vision Section (Updated Layout) */}
-      <div className={styles.visionRow}>
-        <div className={styles.visionLeft}>
-          <h2 className={styles.sectionTitle}>Our Vision</h2>
-        </div>
-        <div className={styles.visionRight}>
-          <p className={styles.sectionText}>
-            At Coyolia, our vision is to revolutionize the way individuals learn and grow.
-            We are committed to providing a space where creativity, innovation, and knowledge
-            converge to shape the future of learning. Our platform is dedicated to offering a
-            diverse range of educational opportunities that cater to the unique needs and aspirations
-            of every learner.
-          </p>
-        </div>
-      </div>
+      <section className={styles.section}>
+              <div className={styles.badge}>Vision</div>
+              <article className={styles.text}>
+                At Coyolia Technologies, our vision is to create a world of abundant 
+                opportunities for youth by leveraging the power of the Digital Public
+                Goods Alliance. We aim to harness Indian and open-source IP to tackle
+                global challenges, reduce corruption, and empower communities
+                worldwide.
+              </article>
+            </section>
+
+            {/* Mission Section */}
+            <section className={styles.section}>
+              <div className={styles.badge}>Mission</div>
+              <article className={styles.text}>
+                As Digital Ambassadors, Coyolia Technologies will champion
+                open-source community projects in India and beyond. Collaborating
+                with the Government of India and DPGA, we will promote these
+                solutions in new regions, infuse innovative skills and training for
+                youth in Ethiopia, India, and African Union members, and support open
+                standards-based technologies to foster a zero-corruption environment.
+                We stay local while integrating global best practices.
+              </article>
+            </section>
+
+            {/* Values Section */}
+            <section className={styles.section}>
+              <div className={styles.badge}>Values</div>
+              <article className={styles.text}>
+                We believe in integrity, transparency, and collaboration. By
+                fostering an open-source culture, we strive to create solutions that
+                are ethical, sustainable, and impactful for communities worldwide.
+              </article>
+            </section>
 
 
 

@@ -19,6 +19,7 @@ import ContactModal from "./pages/ContactModal"; // ✅ Import the modal
 import styles from "./styles/App.module.css";
 import floatingStyles from "./styles/FloatingContact.module.css"; // ✅ Floating button CSS
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import OurFounder from "./pages/OurFounder";
 function App() {
   const [showContactModal, setShowContactModal] = useState(false);
 
@@ -54,6 +55,7 @@ function App() {
               <Route path="/ContactModal" element ={<ContactModal/>}/>
             </Routes>
           </div>
+          <OurFounder/>
           <Footer />
         </div>
 

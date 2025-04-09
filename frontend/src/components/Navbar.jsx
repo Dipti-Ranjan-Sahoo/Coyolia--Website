@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
+import coyolia_img from "../assets/CoyoliaPrimarylogo.avif";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
 
   return (
     <nav className={styles.navbar}>
-      <h1 className={styles.logo}>Coyolia</h1>
+      <div className={styles.logo}>
+        <img src={coyolia_img} alt="Coyolia Logo" />
+      </div>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about-us">About Us</Link></li>
