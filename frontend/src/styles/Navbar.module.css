@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: ook#6f6fda;
+  background-color: #5656df; /* Fixed typo: 'ook#6f6fda' → '#6f6fda' */
   padding: 15px 20px;
 }
 
@@ -49,4 +49,23 @@
 
 .dropdownMenu a:hover {
   background-color: #6442a3;
+}
+
+/* 📞 Call Icon Button */
+.callButton {
+  display: flex;
+  align-items: center;
+}
+
+.callButton a {
+  font-size: 1.4rem;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.callButton a:hover {
+  color: #e0e0ff;
+  transform: scale(1.2);
 }

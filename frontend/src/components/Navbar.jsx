@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
-  // State for managing dropdowns
   const [dropdown, setDropdown] = useState(null);
 
   return (
@@ -55,7 +54,7 @@ const Navbar = () => {
           {dropdown === "insights" && (
             <div className={styles.dropdownMenu}>
               <Link to="/insights/blog">Blog</Link>
-              <Link to="/insights/webinars">Webinars</Link>
+              <Link to="/insights/webinar">Webinars</Link>
               <Link to="/insights/events">Events</Link>
             </div>
           )}
@@ -106,6 +105,11 @@ const Navbar = () => {
               <Link to="/services/follow-ups">Follow-ups & Support</Link>
             </div>
           )}
+        </li>
+
+        {/* 📞 Call Icon */}
+        <li className={styles.callButton}>
+          <a href="tel:+911234567890" title="Call Us">📞</a>
         </li>
       </ul>
     </nav>

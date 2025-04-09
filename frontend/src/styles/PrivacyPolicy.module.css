@@ -1,0 +1,20 @@
+.privacyPolicyContainer {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .eulaText {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    white-space: pre-wrap;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
